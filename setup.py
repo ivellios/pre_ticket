@@ -8,17 +8,21 @@ from setuptools import setup, find_packages
 requirements = ["pre-commit", "six"]
 
 setup(
-    author="Deployed.pl",
+    author="Janusz 'Ivellios' Kamienski",
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
     ],
     description="pre-commit hook for adding issue ticket number to your git commit messages",
     install_requires=requirements,
     name="pre_ticket",
-    version="1.0.0",
+    version="1.1.0",
     license="MIT license",
     keywords="pre_ticket",
     url="https://github.com/deployed/pre_ticket",
